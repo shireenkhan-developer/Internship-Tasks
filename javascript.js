@@ -1,6 +1,7 @@
-var added = false;
+var added = false; //checking button sign
 var counter1 = 0; //counter for button1
 var counter2 = 0; //counter for button2
+
 //function to hide the lists
 function myFunction(button) {
   var div = $("<div>", { class: "add-icon" });
@@ -31,6 +32,7 @@ function myFunction(button) {
     $(button).find(".btn-txt").text("Hide");
   }
 }
+
 //function for calculating the rate/cost
 $(".rate-btn").on("click", function () {
   var hrs = $("#rate").val();
