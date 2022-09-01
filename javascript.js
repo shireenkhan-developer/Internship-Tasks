@@ -38,6 +38,7 @@ $(".rate-btn").on("click", function () {
   var hrs = $("#rate").val();
   var cost_per_hr = 15; //dollars
   var cost = hrs * cost_per_hr;
+  
   $("#cost-estimation p").html(
     `The Project Will Take ` +
       hrs +
